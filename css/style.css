@@ -1,0 +1,7 @@
+.gallery{
+    display: flex;
+    align-items: center;
+}
+.gallery>li:not(:last-child){
+    margin-right: 10px;
+}
