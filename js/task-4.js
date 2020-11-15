@@ -4,7 +4,6 @@ const buttons = {
     counterValue: document.querySelector('#value'),
     currentValue: 0,
 }
-console.log(buttons.currentValue);
 const increment = function (){
     buttons.currentValue += 1;
     getValue();
