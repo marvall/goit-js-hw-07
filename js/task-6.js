@@ -1,7 +1,6 @@
 const inputValidator = {
     inputText: document.querySelector("input#validation-input"),
 }
-console.log(parseInt(inputValidator.inputText.getAttribute("data-length")));
 const checkValidation  = function () {
     if (inputValidator.inputText.value.length === parseInt(inputValidator.inputText.getAttribute("data-length"))) {
         inputValidator.inputText.classList.add("valid");
